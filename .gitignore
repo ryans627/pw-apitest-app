@@ -1,0 +1,13 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Other common ignores (e.g., Node.js projects)
+.vscode/
+.env
+.DS_Store
+out/
