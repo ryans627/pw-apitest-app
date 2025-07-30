@@ -5,6 +5,7 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+.auth/*
 
 # Other common ignores (e.g., Node.js projects)
 .vscode/
