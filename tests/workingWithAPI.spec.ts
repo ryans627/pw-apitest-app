@@ -10,10 +10,10 @@ test.beforeEach(async ({ page }) => {
     });
 
     await page.goto('https://conduit.bondaracademy.com/');
-    await page.getByText('Sign in').click();
-    await page.getByRole('textbox', {name: "Email"}).fill('ryan.d.shang@gmail.com');
-    await page.getByRole('textbox', {name: "Password"}).fill('123456789');
-    await page.getByRole('button', {name: "Sign in"}).click();
+    // await page.getByText('Sign in').click();
+    // await page.getByRole('textbox', {name: "Email"}).fill('ryan.d.shang@gmail.com');
+    // await page.getByRole('textbox', {name: "Password"}).fill('123456789');
+    // await page.getByRole('button', {name: "Sign in"}).click();
 })
 
 test('project setup', async ({ page }) => {
